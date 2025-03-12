@@ -83,7 +83,7 @@ color: none;
 
 @media screen and (min-width: 2560px) {
 	.li{ font-size: 2em;}
-	.paragrafo__div{font-size: 2em;}
+	.paragrafo__div{font-size: 2em; }
 	.imagemL{min-width: 100%;}
 }
 
@@ -118,8 +118,8 @@ gap: 1%;
 }
 
 .paragrafo__div{
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 4%;
+	padding-right: 5%;
 	align-self: center;
 	width: 100%;
 	text-align: justify;
