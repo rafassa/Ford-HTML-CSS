@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	flex-direction: column;
+	display: flex;
+	min-width: 100vw;
+	max-width: 100vw;
+	min-height: 100vh;
+	max-height: 100vh;
+	flex: 1;
+	font-family: 'Inter';
+
+}
+
+header{
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid gray;
+	padding: 1%;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.nav{
+	
+	flex: 1;
+}
+
+.Imagem{
+display: flex;
+width: 11rem;
+}
+
+.ul{
+	flex:1;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	gap: 10%;
+}
+
+.li{
+	border: 1px solid white;
+	font-size: 1em;
+	transition: all 0.2s ease;
+}
+
+.li:hover{
+	border: 1px solid black;
+	border-radius: 35%;
+	transform: scale(1.05);
+}
+
+.texto{
+	padding: 1em;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.texto:visited{
+color: none;
+}
+
+.divInvisivel{
+	width: 11rem;
+
+}
+
+
+@media screen and (min-width: 2560px) {
+	.li{ font-size: 2em;}
+	.paragrafo__div{font-size: 2em;}
+	.imagemL{min-width: 100%;}
+}
+
+
+
+main{
+flex: 1;
+display: flex;
+padding-top:1%;
+align-items: center;
+}
+
+.ajustePrincipal{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100%;
+	
+}
+
+.section{
+display: flex;
+flex-direction: column;
+min-width: 100vw;
+min-height: 100%;
+}
+
+.div__video{
+display:flex;
+width: 100vw;
+gap: 1%;
+}
+
+.paragrafo__div{
+	padding-left: 2%;
+	padding-right: 2%;
+	align-self: center;
+	width: 100%;
+	text-align: justify;
+}
+
+@media screen and (max-width:900px) {
+.div__video{
+	flex-direction: column-reverse;
+}
+.Imagem{width: 25%;}
+.paragrafo__div{
+	padding-top: 4% ;
+}
+.menu{flex-direction: column;}
+
+.video{width: 90% !important; align-self: center; }
+}
+
+
+.video{
+	aspect-ratio: 16 / 9;
+    width:55%;
+	padding-right: 1%;
+}
+
+.divisaoImg{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	
+	
+}
+
+.textoAjuste{
+	display: flex;
+	flex-direction: row;
+	gap: 2%;
+	justify-content: center;	
+}
+
+.imagemModelos{
+    display: flex;
+    height: 14vh;
+    align-self: center;
+}
+
+.figure{
+display: flex;
+flex-direction: column;
+
+}
+
+.botaoC{
+	width: 10%;
+	height: 5%;
+	align-self: center;
+	text-align: center;
+	background-color: #1b357e;
+	color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 10%;
+	
+}
+
+.divisaoTable{
+display: flex;
+width: 100vw;
+justify-content: center;
+padding-top: 1%;	
+}
+
+
+table{
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	tr{display: flex; justify-content: space-evenly;}
+}
+
+
+table td{
+	font-size: 100%;
+	text-align: center;
+}
+
+table tbody{
+	width: 100%;
+	
+}
+	.info{ 
+		width: 10%;
+		
+}
+
+.imagemL{
+	width: 55%;
+}
+
+
+@media screen and (max-width:900px) {
+	.divisaoImg{
+		flex-direction: column;
+		padding-bottom: 4%;
+		gap: 5vh;
+	}
+
+	.botaoC{
+		width: 30%;
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+
+	.texto{
+		font-size: 0.8em;
+	}
+
+	.textoF{
+		font-size: 0.8rem;
+	}
+
+	
+		table td{
+			text-align: center;
+			align-items: center;
+		}
+		
+		table tr{
+			display: block;
+			
+		}
+	
+		table td{
+			display: block;
+		}
+
+		.imagemL{
+			width: 70%;
+		}
+	
+		
+}
+
+
+table thead tr{
+	display: none;
+}
+
+.divTable{
+	width: 100%;
+}
+
+footer{
+	display: flex;
+	background-color: #1b357e;
+	width: 100vw;
+}
+
+.divTotal{
+display: flex;
+width: 100%;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.divF{
+	display: flex;
+	align-items: center;
+	gap: 00.1em;
+	flex-wrap: wrap;
+}
+
+
+.textoF{
+	padding: 1em;
+	font-size: 1em;
+	color: white;
+}
+
+.navImg{
+	min-width: 2rem;
+	max-width: 2em;
+	align-self: center;
+	padding: 2%;
+	transition: all 0.3s ease;
+}
+
+.navImg:hover{
+transform: scale(1.05);
+}
+
+
+.alinhamento__Imagem__Logo{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-right: 2%;
+	
+}
+.imagemFord{
+	height: 2.3rem;
+	min-width: 4.5rem;
+	max-width: 4.5rem;
+	
+}
+
+
+
+
+
+
+

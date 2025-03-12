@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	flex-direction: column;
+	display: flex;
+	min-width: 100vw;
+	max-width: 100vw;
+	min-height: 100vh;
+	max-height: 100vh;
+	flex: 1;
+	font-family: 'Inter';
+
+}
+
+header{
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid gray;
+	padding: 1%;
+	
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.nav{
+	flex: 1;
+}
+
+.Imagem{
+display: flex;
+width: 11rem;
+}
+
+.ul{
+	flex:1;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	gap: 10%;
+}
+
+.li{
+	border: 1px solid white;
+	font-size: 1em;
+	transition: all 0.2s ease;
+}
+
+.li:hover{
+	border: 1px solid black;
+	border-radius: 35%;
+	transform: scale(1.05);
+}
+
+.texto{
+	padding: 1em;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.texto:visited{
+color: none;
+}
+
+.divInvisivel{
+	width: 11rem;
+
+}
+
+
+@media screen and (min-width: 2560px) {
+	.li{ font-size: 2em;}
+}
+
+
+
+main{
+flex: 1;
+display: flex;
+
+}
+
+
+.section{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.figure{
+	justify-content: center;
+	padding: 1%;
+}
+
+#imagem_1{
+	width:  70vw;
+}
+
+.textoM{
+font-size: 1vw;
+text-align: center;
+}
+
+.textoMid{
+	text-align: justify;
+	padding: 1%;
+}
+
+
+@media screen and (max-width: 900px) {
+	#imagem_1{width: 90vw;}
+	.textoM{ font-size: 2vw;}
+		.Imagem{width: 25%;}
+		.texto{font-size: 0.8em;}
+		.menu{flex-direction: column;}
+		.section{flex-direction: column-reverse;}
+		.textoMid{padding: 4%; font-size: 100%;}
+}
+
+footer{
+	display: flex;
+	background-color: rgb(12, 33, 125);
+	width: 100vw;
+}
+
+.divTotal{
+display: flex;
+width: 100%;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.divF{
+	display: flex;
+	align-items: center;
+	gap: 00.1em;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+
+.textoF{
+	padding: 1em;
+	font-size: 1em;
+	color: white;
+}
+
+.navImg{
+	min-width: 2rem;
+	max-width: 2em;
+	align-self: center;
+	padding: 2%;
+	transition: all 0.3s ease;
+}
+
+.navImg:hover{
+transform: scale(1.05);
+}
+
+.navF{
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.alinhamento__Imagem__Logo{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-right: 2%;
+	
+}
+.imagemFord{
+	max-height: 2.3rem;
+	width: 3;
+	max-width: 4.5rem;
+	
+}
