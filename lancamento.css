@@ -5,6 +5,7 @@
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
+	text-decoration: none;
 
 }
 
@@ -69,6 +70,7 @@ width: 11rem;
 	padding: 1em;
 	text-decoration: none;
 	font-size: 1.2em;
+	color: #1351d8;
 }
 
 .texto:visited{
