@@ -37,8 +37,8 @@ header{
 }
 
 .nav{
-	
 	flex: 1;
+	width: 100%;
 }
 
 .Imagem{
@@ -52,6 +52,8 @@ width: 11rem;
 	list-style: none;
 	justify-content: center;
 	gap: 10%;
+	flex-wrap: wrap;
+
 }
 
 .li{

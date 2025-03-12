@@ -37,6 +37,7 @@ header{
 
 .nav{
 	flex: 1;
+	width: 100%;
 }
 
 .Imagem{
@@ -50,6 +51,8 @@ width: 11rem;
 	list-style: none;
 	justify-content: center;
 	gap: 10%;
+	flex-wrap: wrap;
+
 }
 
 .li{
@@ -107,10 +110,10 @@ padding: 2%;
 .imputs{
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 2em;
 	width: 30%;
 	height: 60%;
-	
+	text-align: justify;
 }
 
 .imagemM{
@@ -138,7 +141,7 @@ padding: 2%;
 		flex-direction: column;
 	}
 	.imagemM{
-		width: 17em;
+		width:60%;
 	}
 	.imputs{
 		width: 50%;
