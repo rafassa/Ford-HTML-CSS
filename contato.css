@@ -140,6 +140,7 @@ padding-top: 2%;
 	cursor: pointer;
 	background-color: #1b357e;
 	color: white;
+	border-radius: 10%;
 }
 
 .inputMain{
